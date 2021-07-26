@@ -12,5 +12,18 @@ public class A11 {
 		a[4]=30;
 		
 		System.out.println(a[3]);
+	    
+		System.out.println("Normal for loop");
+		for (int i = 0; i<5; i++) {
+		System.out.println(a[i]);
+		}	
+		System.out.println("Enhanced for loop");
+		for (int x : a) {
+			System.out.println(x);
+		}
+		
+		System.out.println("hi");
+		System.out.println("how r u");
+		System.out.println("I am fine sudhan");
 	}
 }
