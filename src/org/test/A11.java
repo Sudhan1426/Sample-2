@@ -21,7 +21,9 @@ public class A11 {
 		for (int x : a) {
 			System.out.println(x);
 		}
-			
+		
+		System.out.println("hi");
+		System.out.println("how r u");
 	}
 
 }
